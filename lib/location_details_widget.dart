@@ -17,16 +17,23 @@ class LocationDetails extends StatelessWidget {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.stretch,
-        children: _renderFacts(_location.locationFacts),
+        children: _renderBody(context,_location),
       ),
     );
   }
 
-  Widget _section(String title, Color _color){
-    return Container(
-      decoration: BoxDecoration(color: _color),
-      child: Text(title),
-    );
+//  Widget _section(String title, Color _color){
+//    return Container(
+//      decoration: BoxDecoration(color: _color),
+//      child: Text(title),
+//    );
+//  }
+
+  List<Widget>  _renderBody(BuildContext context, Location location){
+    var body = List<Widget>();
+    body.add(_bannerImage(location.url, 170.0));
+    body.addAll(_renderFacts(location.locationFacts));
+    return body;
   }
 
   List<Widget> _renderFacts(List<LocationFacts> locationfacts) {
@@ -44,6 +51,12 @@ class LocationDetails extends StatelessWidget {
 
   Widget _sectionText(String text){
     return Text(text);
+  }
+
+  Widget _bannerImage(String url,double height){
+    return Container(
+      child: Image.network(url, fit: BoxFit.fitWidth)
+    );
   }
 
 }

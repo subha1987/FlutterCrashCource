@@ -1,16 +1,18 @@
 # flutter_crash_course_app
 
-flutter crash course applciation from - https:&#x2F;&#x2F;fluttercrashcourse.com
+
+My flutter crash course application learning from - https:&#x2F;&#x2F;fluttercrashcourse.com
+
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is a starting point of my learning Flutter application. 
 
-A few resources to get you started if this is your first Flutter project:
+For help getting started with Flutter, view our online documentation, which offers tutorials, samples, guidance on mobile development, and a full API reference.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Original source is -  https:&#x2F;&#x2F;fluttercrashcourse.com
 
-For help getting started with Flutter, view our
+for documentation - 
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+ 
