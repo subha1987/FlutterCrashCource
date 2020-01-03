@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'login_screen.dart';
+import 'package:flutter_crash_course_app/login_screen.dart';
+
 
 //void main() {
 //  return runApp(MaterialApp(
@@ -16,3 +17,9 @@ void main() => runApp(
         home: LoginPage(),
       ),
     );
+
+//void main() {
+//  return runApp(MaterialApp(
+//      home:LocationDetails(mockLocation())
+//  ));
+//}
